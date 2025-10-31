@@ -30,4 +30,8 @@ public class CustomList {
             throw new IllegalArgumentException();
         }
     }
+
+    public int citiesCount() {
+        return cities.size();
+    }
 }
